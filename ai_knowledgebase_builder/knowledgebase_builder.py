@@ -40,12 +40,12 @@ def analyze_support_text(raw_text: str):
 
 
 def main():
-    with open("input/raw_support_text.txt", "r") as f:
+    with open("ai_knowledgebase_builder/input/raw_text.txt", "r") as f:
         raw_text = f.read()
 
     structured_data = analyze_support_text(raw_text)
 
-    with open("output/structured_knowledge.json", "w") as f:
+    with open("ai_knowledgebase_builder/output/structured_knowledge.json", "w") as f:
         json.dump(structured_data, f, indent=2)
 
     print("Structured knowledge base generated successfully.")
