@@ -1,0 +1,5 @@
+Customer reports login fails with error 403 on mobile Safari.
+Password reset did not resolve the issue.
+
+Another user reports checkout failure when paying with Visa.
+Error message says "Payment authorization failed".

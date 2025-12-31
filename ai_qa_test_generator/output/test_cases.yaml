@@ -1,0 +1,12 @@
+- test_case: Upload valid JPG under 5MB
+  type: Functional
+  expected_result: Upload succeeds and image is displayed
+
+- test_case: Upload file larger than 5MB
+  type: Edge
+  expected_result: Error message is shown
+
+- test_case: Upload unsupported file format
+  type: Negative
+  expected_result: File type is rejected
+

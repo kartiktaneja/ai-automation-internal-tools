@@ -1,0 +1,6 @@
+date,issue_type,description
+2025-01-01,Login Error,User received 403 error on mobile
+2025-01-02,Login Error,Login failed after password reset
+2025-01-03,Payment Failure,Payment authorization failed
+2025-01-04,Login Error,Session expired unexpectedly
+2025-01-05,Payment Failure,Checkout failed for Visa card

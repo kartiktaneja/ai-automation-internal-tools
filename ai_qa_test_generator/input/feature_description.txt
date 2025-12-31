@@ -1,0 +1,4 @@
+Users can upload a profile picture.
+Maximum file size is 5MB.
+Only JPG and PNG formats are allowed.
+The image should be visible on the user profile after upload.
